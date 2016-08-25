@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "126536527969",
+    "project_id": "youtube-app-1354"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126536527969:android:9d1e3b68d2507eaa",
+        "android_client_info": {
+          "package_name": "com.example.farhaan.youtube_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "126536527969-noqenc915v48j4jvtbpu08s8v4a19mkh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.farhaan.youtube_app",
+            "certificate_hash": "4A62244AF0B1411D89828E703E299D0130832594"
+          }
+        },
+        {
+          "client_id": "126536527969-isuvogjkurifnb2bf5uunp1d3sght5f3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEj6SdoUvVQ6E4aBZrqcYXpDHb9s4BO-k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

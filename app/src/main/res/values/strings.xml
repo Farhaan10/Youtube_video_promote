@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Youtube_app</string>
+    <string name="welcome_message">Welcome to my_app. Please sign in</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="nav_drawer_items">
+        <item>Notifications</item>
+        <item>Withdrawls</item>
+        <item>Terms</item>
+        <item>Invite Friends</item>
+        <item>Contact Us</item>
+        <item>Contact Facebook</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_notifications</item>
+        <item>@drawable/ic_withdrawls</item>
+    </array>
+</resources>

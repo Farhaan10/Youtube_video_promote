@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.farhaan.youtube_app">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/youtubeicon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SignIn"
+            android:label="Youtube_app"></activity>
+        <!-- <activity android:name=".YoutubePlayer"
+            android:label="Youtube_app"></activity> -->
+        <activity android:name="navActivites.Notifications"
+            android:label="Youtube_app"
+            android:parentActivityName=".Holder"
+            android:theme="@android:style/Theme.Holo.Light"></activity>
+        <activity android:name="navActivites.Withdrawls"
+            android:label="Youtube_app"
+            android:parentActivityName=".Holder"
+            android:theme="@android:style/Theme.Holo.Light"></activity>
+        <activity android:name="navActivites.Terms"
+            android:label="Youtube_app"
+            android:parentActivityName=".Holder"
+            android:theme="@android:style/Theme.Holo.Light"></activity>
+        <activity android:name="navActivites.Invite_Friends"
+            android:label="Youtube_app"
+            android:parentActivityName=".Holder"
+            android:theme="@android:style/Theme.Holo.Light"></activity>
+        <activity android:name="navActivites.Contact_Us"
+            android:label="Youtube_app"
+            android:parentActivityName=".Holder"
+            android:theme="@android:style/Theme.Holo.Light"></activity>
+        <activity android:name=".Holder"
+            android:label="Youtube_app"></activity>
+    </application>
+
+</manifest>

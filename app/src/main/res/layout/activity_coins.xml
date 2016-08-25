@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView android:layout_height="wrap_content"
+    android:layout_width="fill_parent"
+    android:id="@+id/scrollView1"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/whole_layout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_coins"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/number_of_coins"
+        android:textSize="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/text_coins"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/third_line"
+        android:layout_below="@+id/number_of_coins"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gift_cards"
+        android:layout_below="@+id/number_of_coins"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:id="@+id/Amazon"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/third_line"
+        android:src="@drawable/amazon"
+        android:background="@drawable/border"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:id="@+id/Paytm"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/Amazon"
+        android:src="@drawable/paytm"
+        android:background="@drawable/border"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:id="@+id/Flipkart"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/Paytm"
+        android:src="@drawable/flipkart"
+        android:background="@drawable/border"/>
+
+</RelativeLayout>
+
+</ScrollView>
