@@ -98,7 +98,14 @@ public class YoutubePlayer extends Fragment implements YouTubePlayer.OnInitializ
                     }
                 });
 
-        RetrofitProvider.getInstance().provideApi().getVideo().observeOn(AndroidSchedulers.mainThread()).subscribeOn(Schedulers.io())
+        for(int z=0;z<Values.video_array.length;z++) {
+            videos.add(Values.video_array[z]);
+            System.out.println(videos.get(z));
+        }
+        System.out.println("Got the videos");
+        initializeYouTubePlayer();
+
+        /*RetrofitProvider.getInstance().provideApi().getVideo().observeOn(AndroidSchedulers.mainThread()).subscribeOn(Schedulers.io())
                 .subscribe(new Subscriber<Status>() {
                     @Override
                     public void onCompleted() {
@@ -120,7 +127,7 @@ public class YoutubePlayer extends Fragment implements YouTubePlayer.OnInitializ
                         System.out.println("Got the videos");
                         initializeYouTubePlayer();
                     }
-                });
+                });*/
 
         return view;
     }

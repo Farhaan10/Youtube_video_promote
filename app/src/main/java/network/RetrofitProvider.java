@@ -17,7 +17,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class RetrofitProvider {
     private static RetrofitProvider retrofitProvider;
     private MyRestAPI mMyRestApi;
-    private String mBaseUrl = "http://192.168.2.28:8080";
+    private String mBaseUrl = "http://192.168.2.10:8080";
     private static final int TIMEOUT = 20;
     private RetrofitProvider() {
         buildRestApi();
